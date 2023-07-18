@@ -1,0 +1,99 @@
+/* Center align and set margin for certain elements */
+img,
+h2,
+h3,
+p {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Center align and set margin for tables */
+table {
+  display: table;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+/* Center align text within table cells */
+th,
+td {
+  text-align: center;
+}
+
+/* Prevent line breaks in table cells */
+td {
+  white-space: nowrap;
+}
+
+/* Styling for the announcement bar */
+.announcement-bar {
+  background-color: rgb(243, 214, 218);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Styling for the announcement text */
+.announcement-text {
+  font-size: 1.2em;
+}
+
+/* Styling for the categories bar */
+.categories-bar {
+  background-color: #fff;
+  padding: 25px 0;
+  text-align: center;
+  margin:auto
+}
+
+/* Styling for list items in the categories bar */
+.categories-bar li {
+  display: inline-block;
+  margin-right: 20px;
+  list-style: none;
+  letter-spacing: 0;
+}
+
+/* Styling for links in the categories bar */
+.categories-bar li a {
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Styling for links on hover in the categories bar */
+.categories-bar li a:hover {
+  background-color: rgb(243, 214, 218);
+  color:#fff
+}
+
+.product-info table tr td:hover {
+    background-color: rgb(243, 214, 218);
+    color:#fff
+}
+
+/* Styling for the footer */
+.footer {
+  display: block;
+  background-color: rgb(243, 214, 218);
+  padding: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Styling for the social media icons */
+.social-media-icons {
+  display: inline-block;
+}
+
+/* Margin between social media icons */
+.social-media-icons a {
+  margin-right: 10px;
+}
+
+/* Align social media icons in one line */
+.social-media-icons img {
+  vertical-align: middle;
+}
