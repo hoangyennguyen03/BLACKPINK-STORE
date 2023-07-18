@@ -45,7 +45,7 @@ td {
   background-color: #fff;
   padding: 25px 0;
   text-align: center;
-  margin:auto
+  margin: auto;
 }
 
 /* Styling for list items in the categories bar */
@@ -66,12 +66,30 @@ td {
 /* Styling for links on hover in the categories bar */
 .categories-bar li a:hover {
   background-color: rgb(243, 214, 218);
-  color:#fff
+  color: #fff;
 }
 
-.product-info table tr td:hover {
-    background-color: rgb(243, 214, 218);
-    color:#fff
+/* Styling for the product information table */
+.product-info table {
+  display: table;
+  margin: 0 auto;
+}
+
+/* Styling for table rows */
+.product-info table tr {
+  text-align: center;
+}
+
+/* Styling for the quantity (money) links */
+.product-info table tr td a {
+  color: black; /* Change the link color to black */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Styling for the quantity (money) links on hover */
+.product-info table tr td a:hover {
+  background-color: rgb(243, 214, 218);
+  color: white;
 }
 
 /* Styling for the footer */
@@ -92,16 +110,6 @@ td {
 .social-media-icons a {
   margin-right: 10px;
 }
-/* If using :active pseudo-class */
-.money:active {
-  color: black;
-}
-
-/* If using a specific class, e.g., .clicked */
-.money.clicked {
-  color: black;
-}
-
 
 /* Align social media icons in one line */
 .social-media-icons img {
