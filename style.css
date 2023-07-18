@@ -92,6 +92,16 @@ td {
 .social-media-icons a {
   margin-right: 10px;
 }
+/* If using :active pseudo-class */
+.money:active {
+  color: black;
+}
+
+/* If using a specific class, e.g., .clicked */
+.money.clicked {
+  color: black;
+}
+
 
 /* Align social media icons in one line */
 .social-media-icons img {
